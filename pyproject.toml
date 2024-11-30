@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hydutils"
+version = "1.0.0"
+description = "HydUtils is a Python utility library designed for data handling and validation, especially for time series and hydrological datasets."
+authors = ["Duy Nguyen <duynguyen02.dev@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
