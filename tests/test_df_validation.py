@@ -1,8 +1,8 @@
 import pytest
 import pandas as pd
 from datetime import datetime, timedelta
-from hydutils.hyd_constants import INTERVAL, TIMESERIES
-from hydutils.df_validation import validate_columns_for_nulls, validate_interval, filter_timeseries
+from hydutils.hydrology_constants import INTERVAL, TIMESERIES
+from hydutils.df_helper import validate_columns_for_nulls, validate_interval, filter_timeseries
 
 
 
